@@ -1,3 +1,34 @@
-.card__section {
-   
+.main__cards {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  gap: 10px 10px;
+}
+
+.main__date {
+  margin-left: 20px;
+  color: yellow;
+}
+
+.main {
+  flex-grow: 1;
+  background-color: black;
+}
+
+.main__logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  
+ 
+}
+
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+  .main__cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 }

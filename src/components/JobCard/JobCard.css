@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Cabinet Grotesk;
+  src: "../vendors/fonts/CabinetGrotesk-Black.woff";
+}
+
+.card__block {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: solid 1pt black;
+  border-radius: 25px;
+  height: 200px;
+  width: 250px;
+  overflow: hidden;
+}
+.card__title-block {
+  text-align: center;
+  
+
+  top: 20px;
+}
+.card__title {
+  background-color: #fff;
+  border-radius: 4px;
+  /* padding: 2px 12px;*/
+  margin: 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.card__close {
+  height: 20px;
+  width: 20px;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card__job-pubdate {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.card__job-name {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}

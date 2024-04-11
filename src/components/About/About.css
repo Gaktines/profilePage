@@ -1,0 +1,76 @@
+@font-face {
+  font-family: Cabinet Grotesk;
+  src: "../vendors/fonts/CabinetGrotesk-Black.woff";
+}
+
+.about__body {
+  flex-grow: 1;
+  background-color: black;
+}
+
+.about__text-one {
+  margin-left: 20px;
+  color: yellow;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.about__text-two {
+  margin-left: 20px;
+  color: yellow;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.about__text-three {
+  margin-left: 20px;
+  color: yellow;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.about__text-four {
+  margin-left: 20px;
+  color: yellow;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.about__text-five {
+  margin-left: 20px;
+  color: yellow;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.about__skills {
+  margin-left: 20px;
+  color: yellow;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.about__image {
+  margin-left: 350px;
+  justify-content: center;
+  align-self: center;
+ 
+}

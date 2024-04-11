@@ -1,6 +1,6 @@
 @font-face {
   font-family: Cabinet Grotesk;
-  src: "../fonts/CabinetGrotesk-Black.woff";
+  src: "../vendors/fonts/CabinetGrotesk-Black.woff";
 }
 
 .modal {
@@ -18,10 +18,9 @@
 .modal__contents {
   background-color: white;
   max-width: 496px;
-  width: 100%;
   border-radius: 20px;
-  height: 436px;
-  padding: 34px 36px;
+  width: 100%;
+  padding: 14px 16px;
   position: relative;
 }
 
@@ -39,21 +38,18 @@
 
 .modal__submit-button {
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   left: 34px;
-  border: none;
-  border-radius: 4px;
-  padding: 8px 16px;
-  gap: 8px;
-  color: #fff;
-  font-family: Cabinet Grotesk;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 20px;
+  display: inline-flex;
+  padding: 18px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 100px;
+  background: var(--Active-disabled, #8cace5);
+  box-shadow: 0px 5px 15px 0px rgba(14, 26, 57, 0.2);
 }
 .modal__submit-button:hover {
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .modal__submit-button:disabled {
@@ -62,9 +58,14 @@
 
 .modal__title {
   color: #000;
-  font-family: Cabinet Grotesk;
+  font-family: "Cabinet Grotesk", Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
+}
+
+.modal__children {
+  display: flex;
+  flex-direction: column;
 }

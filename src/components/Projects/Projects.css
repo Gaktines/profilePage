@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Cabinet Grotesk;
+    src: "../vendors/fonts/CabinetGrotesk-Black.woff";
+  }
+
+.projects__body{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.projects__wtwr-image{
+
+}
+
+.projects__wtwr-about{
+    margin-left: 20px;
+    color: yellow;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.projects__jsPage-image{
+
+}
+
+.projects__jsPage-about {
+    margin-left: 20px;
+    color: yellow;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
