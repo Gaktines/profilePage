@@ -36,6 +36,9 @@ function Main(/*{ onSelectCard, jobItems, setSelectedCard, loggedIn}*/ ) {
           <img src={gTechLogo} alt="logo" />
         </Link>
       </div>
+      <p className="main__description">
+        Balancing your books, and building your web pages!
+      </p>
       </section>
      
     </main>

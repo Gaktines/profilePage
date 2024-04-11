@@ -1,5 +1,6 @@
 import "./About.css";
 import me from "../../images/meSmall.jpg";
+import qbPaBadge from "../../images/proAdvisorSilver.jpg";
 
 const About = () => {
   return (
@@ -22,6 +23,7 @@ When I am not coding, I enjoy, hunting, fishing, dancing, and spending time with
 <p className="about__text-five">
 I also help small businesses increase their profit by optimizing their bookkeeping and providing actionable data they can use to grow their business.
 </p>
+<img src={qbPaBadge} className="about__badge"></img>
 <p className="about__skills">
 Tech Skills:
 HTML,

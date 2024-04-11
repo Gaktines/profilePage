@@ -24,6 +24,12 @@
  
 }
 
+.main__description{
+  display: flex;
+  justify-content: center;
+  color: yellow;
+}
+
 @media only screen and (min-width: 300px) and (max-width: 800px) {
   .main__cards {
     display: flex;
