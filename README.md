@@ -1,4 +1,4 @@
-This is the front end for a web app that gets you the  job openings for various companies. You can view it here https://gaktines.github.io/job-explorer-frontend. It was built with React.
+This is my website for G-Tech a company that I created in order to help people build web pages, and balance their business books.  I used React to build the front end.
 
 # Getting Started with Create React App
 
