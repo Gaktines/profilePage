@@ -1,6 +1,6 @@
 {
-  "homepage": "https://gaktines.github.io/job-explorer-frontend",
-  "name": "job-explorer-frontend",
+  "homepage": "https://github.com/Gaktines/profilePage",
+  "name": "profilepage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
