@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 10px;
  background-color: black;
   margin-bottom: 0px;
 }
@@ -18,6 +18,8 @@
   font-family: "Cabinet Grotesk", Inter;
   font-style: regular;
   color: yellow;
+  justify-content: flex-start;
+  position: absolute;
 }
 
 .footer__date {
@@ -26,4 +28,28 @@
   font-family: "Cabinet Grotesk", Inter;
   font-style: regular;
   color: yellow;
+}
+
+.footer__link-facebook{
+  color: yellow;
+  font-size: 20px;
+  font-family: "Cabiney Grotesk", Inter;
+  font-style: regular;
+  display: flex;
+}
+
+.footer__link-linkedin {
+  color: yellow;
+  font-size: 20px;
+  font-family: "Cabiney Grotesk", Inter;
+  font-style: regular;
+  display: flex;
+}
+
+.footer__link-github{
+  color: yellow;
+  font-size: 20px;
+  font-family: "Cabiney Grotesk", Inter;
+  font-style: regular;
+  display: flex;
 }
