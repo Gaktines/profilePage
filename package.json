@@ -1,5 +1,6 @@
 {
-  "homepage": "https://g-tech.ix.tc",
+  "deploy": "npm run build && scp -r ./build/* gaktines@www.g-tech.ix.tc:/home/gaktines/profilePage",
+  "homepage": "https://www.g-tech.ix.tc",
   "name": "profilepage",
   "version": "0.1.0",
   "private": true,
