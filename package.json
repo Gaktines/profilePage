@@ -1,5 +1,5 @@
 {
-  "deploy": "npm run build && scp -r ./build/* gaktines@g-tech.ix.tc:/home/gaktines/profilePage",
+  
   "homepage": "https://g-tech.ix.tc",
   "name": "profilepage",
   "version": "0.1.0",
@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "npm run build && scp -r ./build/* gaktines@g-tech.ix.tc:/home/gaktines/profilePage",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
