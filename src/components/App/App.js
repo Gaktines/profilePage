@@ -13,6 +13,7 @@ import RegisterModal from "../../components/RegisterModal/RegisterModal";
 import LoginModal from "../../components/LoginModal/LoginModal";
 import { AppContext } from "../../contexts/AppContext";
 import { CurrentUserContext } from "../../contexts/CurrentUserContext";
+import SocMedBanner from "../../SocMedBanner/SocMedBanner";
 
 
 function App() {
@@ -150,6 +151,7 @@ function App() {
                   <Projects />
                 </Route>
               </Switch>
+              <SocMedBanner />
               <Footer />
 
               {activeModal === "signup" && (

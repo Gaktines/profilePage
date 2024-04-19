@@ -30,26 +30,3 @@
   color: yellow;
 }
 
-.footer__link-facebook{
-  color: yellow;
-  font-size: 20px;
-  font-family: "Cabiney Grotesk", Inter;
-  font-style: regular;
-  display: flex;
-}
-
-.footer__link-linkedin {
-  color: yellow;
-  font-size: 20px;
-  font-family: "Cabiney Grotesk", Inter;
-  font-style: regular;
-  display: flex;
-}
-
-.footer__link-github{
-  color: yellow;
-  font-size: 20px;
-  font-family: "Cabiney Grotesk", Inter;
-  font-style: regular;
-  display: flex;
-}
