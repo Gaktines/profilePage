@@ -163,9 +163,9 @@
 
   .header__burger-menu {
     display: flex;
-    background-image: url("../../images/mobileHeaderMenu.svg");
-    width: 44px;
-    height: 44px;
+    background-image: url("../../images/hamburgermenu.jpg");
+    width: 48px;
+    height: 48px;
   }
 
   .header__logo {
