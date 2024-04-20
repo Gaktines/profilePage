@@ -31,8 +31,6 @@ function Main(/*{ onSelectCard, jobItems, setSelectedCard, loggedIn}*/ ) {
             />
           ))}
         </div>{*/},
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5315456058652715"
-     crossOrigin="anonymous"></script>
         <div className="main__logo">
         <Link to="/">
           <img src={gTechLogo} alt="logo" />
