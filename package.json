@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "npm run build && scp -r ./build/* gaktines@g-techllc.us:/home/gaktines/profilePage",
+    "deploy": "npm run build && scp -r ./build/* gaktines@g-techllc.us:/home/gaktines/profilePage && scp -r ./build/* gaktines@g-tech.ix.tc:/home/gaktines/profilePage",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
