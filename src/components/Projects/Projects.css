@@ -10,7 +10,8 @@
 }
 
 .projects__wtwr-image{
-
+height: 200px;
+width: 350px;
 }
 
 .projects__wtwr-about{
@@ -24,7 +25,8 @@
 }
 
 .projects__jsPage-image{
-
+height: 200px;
+width: 350px;
 }
 
 .projects__jsPage-about {
@@ -35,4 +37,17 @@
     font-style: normal;
     font-weight: 400;
     line-height: 25px;
+}
+
+@media only screen and (max-width: 800px) {
+    .projects__wtwr-image{
+        height: 40px;
+        width: 100px;
+        } 
+
+        .projects__jsPage-image{
+            height: 40px;
+            width: 100px;
+            }
+                 
 }
