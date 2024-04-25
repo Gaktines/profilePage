@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Cabinet Grotesk;
+    src: "../vendors/fonts/CabinetGrotesk-Black.woff";
+  }
+
+.contact__body {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__message {
+    margin-left: 20px;
+    color: yellow;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.contact__email {
+    margin-left: 20px;
+    color: yellow;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.contact__number {
+    margin-left: 20px;
+    color: yellow;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}

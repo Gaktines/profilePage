@@ -4,6 +4,7 @@ import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
+import Contact from "../Contact/Contact";
 import Preloader from "../Preloader/Preloader";
 import { useState, useEffect } from "react";
 import { Switch, Route, useHistory } from "react-router-dom";
@@ -149,6 +150,9 @@ function App() {
                 </Route>
                 <Route path="/projects">
                   <Projects />
+                </Route>
+                <Route path="/contact">
+                  <Contact />
                 </Route>
               </Switch>
               <SocMedBanner />

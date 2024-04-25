@@ -30,6 +30,9 @@ const Header = ({ loggedIn/*, onClickSignup, onClickLogin*/ }) => {
       <Link to="/projects" className="header__project-link">
         Projects
       </Link>
+      <Link to="/contact" className="header__contact-link">
+        Contact
+      </Link>
       <div className="header__avatar-logo">
         {loggedIn ? (
           <>
@@ -72,6 +75,7 @@ const Header = ({ loggedIn/*, onClickSignup, onClickLogin*/ }) => {
               <Link className="header__nav-home" to="/">Home</Link>
               <Link className="header__nav-about" to="/about">About</Link>
               <Link className="header__nav-projects" to="/projects">Projects</Link>
+              <Link className="header__nav-contact" to="/contact">Contact</Link>
               {/*}<button className="header__nav-signin" type="text" onClick={onClickLogin}>
                 Sign In
             </button>{*/}

@@ -93,6 +93,17 @@
  
 }
 
+.header__contact-link {
+  display: inline-flex;
+  padding: 18px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  height: 80px;
+  flex-shrink: 0;
+  color: yellow;
+  margin-top: 60px;
+}
+
 .header__burger-menu {
   display: none;
 }
@@ -144,12 +155,26 @@
   background-color: white;
 }
 
+.header__nav-contact {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  height: 80px;
+  flex-shrink: 0;
+  color: yellow;
+  margin-top: 60px;
+}
+
 @media only screen and (max-width: 800px) {
   .header__home-link {
     display: none;
   }
 
   .header__about-link {
+    display: none;
+  }
+
+  .header__contact-link {
     display: none;
   }
 
@@ -166,6 +191,7 @@
     background-image: url("../../images/hamburgermenu.jpg");
     width: 48px;
     height: 48px;
+   
   }
 
   .header__logo {
