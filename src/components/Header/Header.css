@@ -33,7 +33,7 @@
 
 .header__signup-button {
   display: inline-flex;
-  padding: 18px 32px;
+  padding: 18px 16px;
   align-items: flex-start;
   gap: 10px;
   border-radius: 100px;
@@ -43,7 +43,7 @@
 
 .header__signin-button {
   display: inline-flex;
-  padding: 18px 32px;
+  padding: 18px 16px;
   align-items: flex-start;
   gap: 10px;
   border-radius: 100px;
@@ -60,7 +60,7 @@
 
 .header__about-link {
   display: inline-flex;
-  padding: 18px 32px;
+  padding: 18px 16px;
   align-items: flex-start;
   gap: 10px;
   height: 80px;
@@ -71,7 +71,7 @@
 
 .header__home-link {
   display: inline-flex;
-  padding: 18px 32px;
+  padding: 18px 16px;
   align-items: flex-start;
   gap: 10px;
   height: 80px;
@@ -83,7 +83,7 @@
 
 .header__project-link {
   display: inline-flex;
-  padding: 18px 32px;
+  padding: 18px 16px;
   align-items: flex-start;
   gap: 10px;
   height: 80px;
@@ -95,7 +95,7 @@
 
 .header__contact-link {
   display: inline-flex;
-  padding: 18px 32px;
+  padding: 18px 16px;
   align-items: flex-start;
   gap: 10px;
   height: 80px;
