@@ -95,7 +95,7 @@
 
 .header__contact-link {
   display: inline-flex;
-  padding: 18px 32px;
+  padding: 18px;
   align-items: flex-start;
   gap: 10px;
   height: 80px;
