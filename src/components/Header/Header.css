@@ -126,7 +126,7 @@
   flex-shrink: 0;
   color: yellow;
   margin-top: 60px;
-  
+  padding-right: 10px;
 }
 
 .header__nav-about {
@@ -137,7 +137,7 @@
   flex-shrink: 0;
   color: yellow;
   margin-top: 60px;
- 
+ padding-right: 10px;
 }
 
 .header__nav-projects {
@@ -148,6 +148,7 @@
   flex-shrink: 0;
   color: yellow;
   margin-top: 60px;
+  padding-right: 10px;
 }
 
 .header__nav-signin{
