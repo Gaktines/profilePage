@@ -8,8 +8,8 @@ const Header = ({ loggedIn/*, onClickSignup, onClickLogin*/ }) => {
   const currentUser = useContext(CurrentUserContext);
   //const avatar = currentUser ? currentUser.avatar : undefined;
   //const showAvatar = avatar !== "" ? true : false;
-  const current = new Date();
-  const date = `${current.getFullYear()}-${current.getMonth() + 1}-${current.getDate()}`;
+ // const current = new Date();
+  // const date = `${current.getFullYear()}-${current.getMonth() + 1}-${current.getDate()}`;
   //const name = currentUser ? currentUser.name : "";
   const [hambugerMenuIsOpen, setHambugerMenuIsOpen] = useState(false);
 
@@ -20,7 +20,7 @@ const Header = ({ loggedIn/*, onClickSignup, onClickLogin*/ }) => {
   return (
     <header className="header">
       
-      <p className="header__date">Today is {date}</p>
+     {/*<p className="header__date">Today is {date}</p>*/}
       <Link to="/" className="header__home-link">
         Home
       </Link>

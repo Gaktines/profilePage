@@ -12,6 +12,7 @@
   font-style: regular;
   padding: 0 20px;
   background-color: black;
+  
 }
 
 .header__date {
@@ -78,7 +79,7 @@
   flex-shrink: 0;
   color: yellow;
   margin-top: 60px;
-  margin-left: 900px;
+ margin-left: 60px;
 }
 
 .header__project-link {
@@ -96,7 +97,6 @@
 .header__contact-link {
   display: inline-flex;
   padding: 18px 16px;
-  align-items: flex-start;
   gap: 10px;
   height: 80px;
   flex-shrink: 0;
@@ -188,6 +188,8 @@
 
   .header__burger-menu {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background-image: url("../../images/hamburgermenu.jpg");
     width: 48px;
     height: 48px;
@@ -202,4 +204,9 @@
     display: none;
   }
   
+  @media only screen and (max-width: 1292px) {
+.header__home-link {
+  margin-left: auto;
+}
+  }
 }
